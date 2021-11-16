@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+* {
+    box-sizing: border-box;
+ }
+main {
+    padding: 10px;
+    overflow: auto;
+ }
+#content {
+    float: left;
+    width: 100%;
+ }
+@media screen and (max-width: 1000px) {
+    #content {
+        width: 100%;
+        padding: 0;
+    }
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+    float: right;
+    display: inline-flex;
+  }
+ }
+ @media screen and (max-width: 1000px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+ }
+header {
+    display: inline;
+ }
+.icon{
+    display: none;
+ }
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+ }
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+ }
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+ }
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+ }
+section {
+    overflow: auto;
+ }
+section.clear {
+    clear: left;
+ }
+h2, h3{
+    color: #00a2c6;
+ }
+#profile img {
+    width: 200px;
+ }
+table {
+    text-align: justify;
+    margin: auto;
+ }
+.form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+.btn-tambah {
+    width: 100%;
+    background-color: #428bca;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-tambah:hover {
+    background-color: #5bc0de;
+}
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-edit:hover {
+    background-color: #01ff56;
+}
+.btn-resume {
+    background-color: #e25050;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-resume:hover {
+    background-color: #ff1010;
+}

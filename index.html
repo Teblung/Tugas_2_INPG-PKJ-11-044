@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolioku</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <header id="beranda">
+        <nav>
+            <ul class="topnav">
+                <li><a href="#beranda">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">INVENTORY</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="myFunction()">☰</a>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="profile" class="card">
+                <section>
+                    <table>
+                        <tr>
+                            <td rowspan="5" bor>
+                                <img src="assets/image/profile-theo.png" alt="profile-theo">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <h2>Theo Sepdianto</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <h3>Front End Designer</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <button class="btn-edit" type="submit">Edit</button>
+                            </td>
+                            <td align="center">
+                                <button class="btn-resume" type="submit">Resume</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Availability</th>
+                            <td colspan="2">: Full Time</td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td colspan="2">: 24</td>
+                        </tr>
+                        <tr>
+                            <th>location</th>
+                            <td colspan="2">: Yogyakarta</td>
+                        </tr>
+                        <tr>
+                            <th>Years Experience</th>
+                            <td colspan="2">: Fresh Graduate</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td colspan="2">: theo.sepdianto97@gmail.com</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+            <article class="card">
+                <form action="#" method="post">
+                    <input class="form-input" type="text" id="name" name="name" placeholder="Name"><br><br>
+                    <input class="form-input" type="text" id="role" name="role" placeholder="Role"><br><br>
+                    <input class="form-input" type="text" id="availability" name="availability" placeholder="Availability"><br><br>
+                    <input class="form-input" type="number" id="age" name="age" placeholder="Age"><br><br>
+                    <input class="form-input" type="text" id="location" name="location" placeholder="Location"><br><br>
+                    <input class="form-input" type="number" id="yexperience" name="yexperience" placeholder="Years Experience"><br><br>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="Email"><br><br>
+                    <button class="btn-tambah" type="submit">Submit</button>
+                </form>
+            </article>
+        </div>
+    </main>
+    <script src="assets/styles/javascript.js"></script>
+</body>
+</html>
